@@ -10,7 +10,8 @@
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.2.0",
-        "shalvah/laravel-jsend": "^1.1"
+        "shalvah/laravel-jsend": "^1.1",
+        "silber/bouncer": "v1.0.0-beta.5"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
