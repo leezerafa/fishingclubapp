@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b15a05472c6f59d7c285a60b172a8857",
-    "content-hash": "c67ac5ca3ad28aa896aef606da45c78e",
+    "hash": "1f269916eedb5076fa0af69ba8d5e95c",
+    "content-hash": "a3d4a249bc0199cc5e8e9d348c4b8d63",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1322,6 +1322,49 @@
                 "uuid"
             ],
             "time": "2018-01-20 00:28:24"
+        },
+        {
+            "name": "shalvah/laravel-jsend",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shalvah/laravel-jsend.git",
+                "reference": "6d188942810a334a3f57d54320c2c413f9b2ddc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shalvah/laravel-jsend/zipball/6d188942810a334a3f57d54320c2c413f9b2ddc1",
+                "reference": "6d188942810a334a3f57d54320c2c413f9b2ddc1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.1",
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shalvah Adebayo",
+                    "email": "shalvah.adebayo@gmail.com"
+                }
+            ],
+            "description": "Laravel helpers to send Jsend-compliant responses",
+            "homepage": "http://shalvah.me/laravel-jsend",
+            "keywords": [
+                "jsend",
+                "json",
+                "laravel"
+            ],
+            "time": "2017-06-22 07:19:09"
         },
         {
             "name": "swiftmailer/swiftmailer",
