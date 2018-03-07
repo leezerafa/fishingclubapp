@@ -5,9 +5,25 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+import $ from 'jquery';
+import 'foundation-sites';
+import 'slick-carousel';
+
+
 require('./bootstrap');
+require('foundation-sites/assets/foundation.scss');
+require('slick-carousel/slick/slick.scss');
+require('slick-carousel/slick/slick-theme.scss');
+require('../fonts/slick.eot');
+require('../fonts/slick.svg');
+require('../fonts/slick.ttf');
+require('../fonts/slick.woff');
+
 
 window.Vue = require('vue');
+
+
+$(document).foundation();
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
